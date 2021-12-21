@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/09/26 18:39:24.000.655,=C:\Users\legha\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/09/26 18:39:25.000.415,=C:\Users\legha\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/12/06 00:30:05.000.645,=C:\Users\legha\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/12/06 00:30:05.000.756,=C:\Users\legha\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/12/06 00:30:30.000.733,C:\Users\legha\Documents\Embarcadero\Studio\Projects\Unit1.h=E:\Upwork\125_FluentUI Technical Writing\Mica\MicaForms.h</Transaction>
+    <Transaction>2021/12/06 00:30:30.000.733,C:\Users\legha\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\Upwork\125_FluentUI Technical Writing\Mica\MicaForms.dfm</Transaction>
+    <Transaction>2021/12/06 00:30:30.000.733,C:\Users\legha\Documents\Embarcadero\Studio\Projects\Unit1.cpp=E:\Upwork\125_FluentUI Technical Writing\Mica\MicaForms.cpp</Transaction>
+    <Transaction>2021/12/06 00:30:53.000.500,C:\Users\legha\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=E:\Upwork\125_FluentUI Technical Writing\Mica\Project1PCH1.h</Transaction>
+    <Transaction>2021/12/06 00:30:57.000.179,C:\Users\legha\Documents\Embarcadero\Studio\Projects\Project1.cbproj=E:\Upwork\125_FluentUI Technical Writing\Mica\Project1.cbproj</Transaction>
+    <Transaction>2021/12/06 01:04:34.000.377,E:\RAD Studio\Mica\MicaFormsLight.h=E:\RAD Studio\Mica\MicaForms.h</Transaction>
+    <Transaction>2021/12/06 01:04:34.000.377,E:\RAD Studio\Mica\MicaFormsLight.dfm=E:\RAD Studio\Mica\MicaForms.dfm</Transaction>
+    <Transaction>2021/12/06 01:04:34.000.377,E:\RAD Studio\Mica\MicaFormsLight.cpp=E:\RAD Studio\Mica\MicaForms.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

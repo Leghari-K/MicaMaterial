@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/12/06 01:42:18.000.982,=C:\Users\legha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/06 01:42:50.000.697,E:\RAD Studio\MicaDelphiLight\MicaDelphiLight.pas=C:\Users\legha\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/06 01:42:50.000.697,E:\RAD Studio\MicaDelphiLight\MicaDelphiLight.dfm=C:\Users\legha\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/12/06 01:42:53.000.573,E:\RAD Studio\MicaDelphiLight\Project1.dproj=C:\Users\legha\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/12/22 01:22:20.551,E:\RAD Studio\Mica\MicadelphiDark\MicaDelphiDark.dfm=E:\RAD Studio\Mica\MicadelphiDark\MicaDelphiLight.dfm</Transaction>
+    <Transaction>2021/12/22 01:22:20.551,E:\RAD Studio\Mica\MicadelphiDark\MicaDelphiDark.pas=E:\RAD Studio\Mica\MicadelphiDark\MicaDelphiLight.pas</Transaction>
+  </Transactions>
+</BorlandProject>
