@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{05A3D536-B1BD-442F-827D-AFE521A516C2}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="..\..\Embarcadero\Studio\Projects\Win11Effects.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Component\Example\MicaExample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Mica\MicaDelphiDark\MicaDelphiDark.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Win11Effects">
+        <MSBuild Projects="..\..\Embarcadero\Studio\Projects\Win11Effects.dproj"/>
+    </Target>
+    <Target Name="Win11Effects:Clean">
+        <MSBuild Projects="..\..\Embarcadero\Studio\Projects\Win11Effects.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Win11Effects:Make">
+        <MSBuild Projects="..\..\Embarcadero\Studio\Projects\Win11Effects.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MicaExample">
+        <MSBuild Projects="Component\Example\MicaExample.dproj"/>
+    </Target>
+    <Target Name="MicaExample:Clean">
+        <MSBuild Projects="Component\Example\MicaExample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MicaExample:Make">
+        <MSBuild Projects="Component\Example\MicaExample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MicaDelphiDark">
+        <MSBuild Projects="Mica\MicaDelphiDark\MicaDelphiDark.dproj"/>
+    </Target>
+    <Target Name="MicaDelphiDark:Clean">
+        <MSBuild Projects="Mica\MicaDelphiDark\MicaDelphiDark.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MicaDelphiDark:Make">
+        <MSBuild Projects="Mica\MicaDelphiDark\MicaDelphiDark.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Win11Effects;MicaExample;MicaDelphiDark"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Win11Effects:Clean;MicaExample:Clean;MicaDelphiDark:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Win11Effects:Make;MicaExample:Make;MicaDelphiDark:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
