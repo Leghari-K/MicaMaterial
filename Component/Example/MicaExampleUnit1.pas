@@ -8,6 +8,7 @@ uses
 
 type
   TForm3 = class(TForm)
+    MicaMaterial1: TMicaMaterial;
   private
     { Private declarations }
   public

@@ -14,4 +14,8 @@ object Form3: TForm3
   Font.Style = []
   PixelsPerInch = 96
   TextHeight = 15
+  object MicaMaterial1: TMicaMaterial
+    Left = 160
+    Top = 216
+  end
 end
